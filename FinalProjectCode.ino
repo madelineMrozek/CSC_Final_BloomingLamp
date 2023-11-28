@@ -38,7 +38,7 @@ void loop() {
 //         strip.setBrightness(brightness);
 //       }
 
-// 0 - rainbow
+// 0 - christmas colors
     for (int i = 0; i < strip.numPixels(); i++){
       if (i%3 == 0){
         strip.setPixelColor(i, 255,0,0);
